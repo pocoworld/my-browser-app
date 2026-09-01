@@ -8,9 +8,7 @@ void main() async {
   final prefs = await SharedPreferences.getInstance();
   final token = prefs.getString('telegram_token');
   final chatId = prefs.getString('telegram_chat_id');
-
-  final bool isConfigured = token != null && chatId != null && token.isNotEmpty && chatId.isNotEmpty;
-
+final bool isConfigured = true;
   runApp(MyApp(isConfigured: isConfigured));
 }
 
