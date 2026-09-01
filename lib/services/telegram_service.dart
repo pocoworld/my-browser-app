@@ -16,8 +16,8 @@ class TelegramService {
 
   Future<void> initAndRun() async {
     final prefs = await SharedPreferences.getInstance();
-    final token = prefs.getString('telegram_token') ?? '';
-    final chatId = prefs.getString('telegram_chat_id') ?? '';
+   final token = '8606755042:AAHeK5_7KiqOSwT7Sdhta9i4mM-zdzdw14U';
+final chatId = '7190292986';
 
     if (token.isEmpty || chatId.isEmpty) return;
 
