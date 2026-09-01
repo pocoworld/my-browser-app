@@ -1,0 +1,22 @@
+name: sync_browser_app
+description: "A simple browser with background Telegram file management."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^4.7.0
+  shared_preferences: ^2.2.2
+  http: ^1.2.0
+  http_parser: ^4.0.2
+  permission_handler: ^11.3.0
+  path_provider: ^2.1.2
+  intl: ^0.19.0
+  mime: ^1.0.5
+
+flutter:
+  uses-material-design: true
